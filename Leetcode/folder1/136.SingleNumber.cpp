@@ -114,7 +114,10 @@ int main()
 	// vector<int> nums = {4,1,2,1,2};
 
 	// example 3
-	vector<int> nums = {-1,-1,-2};
+	vector<int> nums;
+	nums.push_back(-1);
+	nums.push_back(-1);
+	nums.push_back(2);
 
 	cout<<" printing the nums vector :- "<<endl;
 	for (int i=0;i<nums.size();i++)
